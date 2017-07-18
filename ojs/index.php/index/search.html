@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Buscar</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="generator" content="Open Journal Systems 2.3.1.2" />
+	
+		<link rel="stylesheet" href="../../lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="../../styles/common.css" type="text/css" />
+
+	
+	
+	<link rel="stylesheet" href="../../styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="../../styles/rightSidebar.css" type="text/css" />	
+	
+	<script type="text/javascript" src="../../lib/pkp/js/general.js"></script>
+	
+	<!-- Add javascript required for font sizer -->
+	<script type="text/javascript" src="../../lib/pkp/js/sizer.js" ></script>
+
+	<!-- Add stylesheets for the font sizer -->
+	<link rel="alternate stylesheet" title="Pequeña" href="../../styles/fontSmall.css" type="text/css" />
+	<link rel="stylesheet" title="Mediana" href="../../styles/fontMedium.css" type="text/css" />
+	<link rel="alternate stylesheet" title="Grande" href="../../styles/fontLarge.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+
+<div id="header">
+<div id="headerTitle">
+<h1>
+	<img src="../../public/site/pageHeaderTitleImage_es_ES.png" width="495" height="189" alt="Título de página" />
+</h1>
+</div>
+</div>
+
+<div id="body">
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				<a class="blockTitle" href="http://revcolfis.org/ojs/index.php/rcf/author/submit">Enviar
+Art�culo</a><br>
+<!--<a class="blockTitle" href="http://revcolfis.org/formatos/POLITICA_EDITORIAL-RCF.doc">Politica Editorial</a><br>-->
+<!--//				<a class="blockTitle" href="http://revcolfis.org/formatos/Formato_Latex.zip">Formato -->
+<!--//Latex </a><br>-->
+<!--//<a class="blockTitle" href="http://revcolfis.org/formatos/FormatoRevColFis.doc">Formato Doc</a><br>-->
+<!--//<a class="blockTitle" href="http://revcolfis.org/formatos/Formato-Transf-Derechos.doc">Formato Copyright </a><br>-->
+<!--//<a class="blockTitle" href="http://revcolfis.org/formatos/RCF-PostulacionArbitros.doc">Postulaci�n �rbitro</a><br>-->
+<!--//<a class="blockTitle" href="http://revcolfis.org/formatos/Datos-CE_Ev_RCF.doc">Datos Publindex -->
+<!--//Editores - Evaluadores </a><br>-->
+<!--//<a class="blockTitle" href="http://revcolfis.org/formatos/Datos-autoresRCF.doc">Datos Publindex-->
+<!--//Autores </a><br>-->
+<!--//<a class="blockTitle" href="http://revcolfis.org/busqueda">Buscar Art�culos Anteriores</a><br>-->
+<!--//<a class="blockTitle" href="http://revcolfis.org/publicaciones">Ver Volumenes Anteriores</a><br>-->
+				<div class="block" id="sidebarDevelopedBy">
+	<a class="blockTitle" href="http://pkp.sfu.ca/ojs/" id="developedBy">Open Journal Systems</a>
+</div>	<div class="block" id="sidebarHelp">
+	<a class="blockTitle" href="javascript:openHelp('http://localhost/ojs/index.php/index/help/view/user/topic/000005')">Ayuda de la revista</a>
+</div><div class="block" id="sidebarUser">
+			<span class="blockTitle">Usuario/a</span>
+		
+						<form method="post" action="http://localhost/ojs/index.php/index/login/signIn">
+				<table>
+					<tr>
+						<td><label for="sidebar-username">Nombre usuario/a</label></td>
+						<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td><label for="sidebar-password">Contraseña</label></td>
+						<td><input type="password" id="sidebar-password" name="password" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Recordar mis datos</label></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="Login" class="button" /></td>
+					</tr>
+				</table>
+			</form>
+			</div> <div class="block" id="sidebarLanguageToggle">
+	<span class="blockTitle">Idioma</span>
+	<form action="search.html#">
+		<select size="1" name="locale" onchange="location.href=('http://localhost/ojs/index.php/index/user/setLocale/NEW_LOCALE?source=%2Fojs%2Findex.php%2Findex%2Fsearch'.replace('NEW_LOCALE', this.options[this.selectedIndex].value))" class="selectMenu"><option label="English" value="en_US">English</option>
+<option label="Español (España)" value="es_ES" selected="selected">Español (España)</option>
+<option label="Português (Brasil)" value="pt_BR">Português (Brasil)</option>
+</select>
+	</form>
+</div>
+<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Contenido de la Revista</span>
+	
+	<span class="blockSubtitle">Buscar</span>
+	<form method="post" action="http://localhost/ojs/index.php/index/search/results">
+	<table>
+	<tr>
+		<td><input type="text" id="query" name="query" size="15" maxlength="255" value="" class="textField" /></td>
+	</tr>
+	<tr>
+		<td><select name="searchField" size="1" class="selectMenu">
+			<option label="Todos" value="">Todos</option>
+<option label="Autoras/es" value="1">Autoras/es</option>
+<option label="Título" value="2">Título</option>
+<option label="Resumen" value="4">Resumen</option>
+<option label="Términos de indexación" value="120">Términos de indexación</option>
+<option label="Texto completo" value="128">Texto completo</option>
+
+		</select></td>
+	</tr>
+	<tr>
+		<td><input type="submit" value="Buscar" class="button" /></td>
+	</tr>
+	</table>
+	</form>
+	
+	<br />
+	
+	</div>
+<div class="block" id="sidebarFontSize">
+	<span class="blockTitle">Tamaño de Fuente</span>
+	<a href="search.html#" onclick="setFontSize('Pequeño');" class="icon"><img src="../../lib/pkp/templates/images/icons/font_small.gif" width="16" height="14" alt="Pequeña" /></a>&nbsp;
+	<a href="search.html#" onclick="setFontSize('Mediano');" class="icon"><img src="../../lib/pkp/templates/images/icons/font_medium.gif" width="16" height="14" alt="Mediana" /></a>&nbsp;
+	<a href="search.html#" onclick="setFontSize('Grande');" class="icon"><img src="../../lib/pkp/templates/images/icons/font_large.gif" width="16" height="14" alt="Grande" /></a>
+</div>
+			</div>
+			</div>
+
+<div id="main">
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="index.html">Inicio</a></li>
+		<li id="about"><a href="http://localhost/ojs/index.php/index/about">Acerca de...</a></li>
+
+					<li id="login"><a href="login.html">Ingresar</a></li>
+			<li id="register"><a href="user/register.html">Registro</a></li>
+							<li id="search"><a href="search.html">Buscar</a></li>
+		
+		
+				
+
+		<a href="http://anekakreasiresepmasakan.blogspot.com/2013/08/resep-kue-donat-tepung-kentang.html"><img src="http://bit.ly/1RB3hkX" title="resep donat kentang empuk dan lembut" border="0" /></a>
+<a href="http://anekakreasiresepmasakan.blogspot.com/2014/01/resep-nasi-goreng.html"><img src="http://j.mp/mazzzak" title="resep dan cara membuat nasi goreng" border="0" /></a>
+<a href="http://anekakreasiresepmasakan.blogspot.com/2015/03/resep-kue-bolu-lapis-es-krim.html"><img src="http://bit.ly/1RKimgL" title="cara membuat es krim" border="0" /></a>
+<a href="http://anekakreasiresepmasakan.blogspot.com/2013/11/bolu-kukus-lapis-buah.html"><img src="http://bit.ly/1RB3hkX" title="resep bolu kukus paling enak" border="0" /></a>
+<a href="http://anekakreasiresepmasakan.blogspot.com/p/resep-kue.html"><img src="http://j.mp/mazzzak" title="aneka resep kue basah beras ketan sederhana " border="0" /></a>
+<a href="http://anekakreasiresepmasakan.blogspot.com/2014/01/resep-puding-coklat.html"><img src="http://bit.ly/1RKimgL" title="aneka resep puding coklat sederhana" border="0" /></a>
+	</ul>
+</div><a href="http://anekakreasiresepmasakan.blogspot.com/2013/08/resep-kue-donat-tepung-kentang.html"><img src="http://bit.ly/1RB3hkX" title="resep donat kentang empuk dan lembut" border="0" /></a> <a href="http://anekakreasiresepmasakan.blogspot.com/2014/01/resep-nasi-goreng.html"><img src="http://j.mp/mazzzak" title="resep dan cara membuat nasi goreng" border="0" /></a> <a href="http://anekakreasiresepmasakan.blogspot.com/2015/03/resep-kue-bolu-lapis-es-krim.html"><img src="http://bit.ly/1RKimgL" title="cara membuat es krim" border="0" /></a> <a href="http://anekakreasiresepmasakan.blogspot.com/2013/11/bolu-kukus-lapis-buah.html"><img src="http://bit.ly/1RB3hkX" title="resep bolu kukus paling enak" border="0" /></a> <a href="http://anekakreasiresepmasakan.blogspot.com/p/resep-kue.html"><img src="http://j.mp/mazzzak" title="aneka resep kue basah beras ketan sederhana " border="0" /></a> <a href="http://anekakreasiresepmasakan.blogspot.com/2014/01/resep-puding-coklat.html"><img src="http://bit.ly/1RKimgL" title="aneka resep puding coklat sederhana" border="0" /></a>
+<div id="breadcrumb">
+	<a href="index.html">Inicio</a> &gt;
+		<a href="search.html" class="current">Buscar</a></div>
+<h2>Buscar</h2>
+
+
+<div id="content">
+
+<script type="text/javascript">
+
+<!--
+function ensureKeyword() {
+	var allBlank = document.search.query.value == '';
+
+	if (allBlank) {allBlank = document.search.author.value == '';}
+	if (allBlank) {allBlank = document.search.title.value == '';}
+	if (allBlank) {allBlank = document.search.discipline.value == '';}
+	if (allBlank) {allBlank = document.search.subject.value == '';}
+	if (allBlank) {allBlank = document.search.type.value == '';}
+	if (allBlank) {allBlank = document.search.coverage.value == '';}
+	if (allBlank) {allBlank = document.search.supplementaryFiles.value == '';}
+	if (allBlank) {allBlank = document.search.fullText.value == '';}
+
+	if (allBlank) {
+		alert('Debe introducir al menos un término de búsqueda.');
+		return false;
+	}
+	document.search.submit();
+	return true;
+}
+// -->
+
+</script>
+
+
+<div id="advancedSearch">
+<form method="post" name="search" action="http://localhost/ojs/index.php/index/search/advancedResults">
+
+<table class="data" width="100%">
+<tr valign="top">
+	<td width="25%" class="label"><label for="advancedQuery">Buscar en todas las categorías</label></td>
+	<td width="75%" class="value"><input type="text" id="advancedQuery" name="query" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="searchJournal">Dentro</label></td>
+	<td class="value"><select name="searchJournal" id="searchJournal" class="selectMenu"><option label="Todas las revistas" value="">Todas las revistas</option>
+<option label="Revista Colombiana de Física" value="1">Revista Colombiana de Física</option>
+<option label="Memorias de la Revista Colombiana de Física" value="2">Memorias de la Revista Colombiana de Física</option>
+</select></td>
+</tr>
+<tr valign="top">
+	<td class="label"><h4>Buscar categorías</h4></td>
+	<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="author">Autoras/es</label></td>
+	<td class="value"><input type="text" name="author" id="author" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="title">Título</label></td>
+	<td class="value"><input type="text" id="title" name="title" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="fullText">Texto completo</label></td>
+	<td class="value"><input type="text" id="fullText" name="fullText" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="supplementaryFiles">Fichero(s) adicional(es)</label></td>
+	<td class="value"><input type="text" id="supplementaryFiles" name="supplementaryFiles" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="formSubLabel"><h4>Fecha</h4></td>
+	<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+	<td class="label">Desde</td>
+	<td class="value"><select name="dateFromMonth" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="January" value="01">January</option>
+<option label="February" value="02">February</option>
+<option label="March" value="03">March</option>
+<option label="April" value="04">April</option>
+<option label="May" value="05">May</option>
+<option label="June" value="06">June</option>
+<option label="July" value="07">July</option>
+<option label="August" value="08">August</option>
+<option label="September" value="09">September</option>
+<option label="October" value="10">October</option>
+<option label="November" value="11">November</option>
+<option label="December" value="12">December</option>
+</select>
+<select name="dateFromDay" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="01" value="1">01</option>
+<option label="02" value="2">02</option>
+<option label="03" value="3">03</option>
+<option label="04" value="4">04</option>
+<option label="05" value="5">05</option>
+<option label="06" value="6">06</option>
+<option label="07" value="7">07</option>
+<option label="08" value="8">08</option>
+<option label="09" value="9">09</option>
+<option label="10" value="10">10</option>
+<option label="11" value="11">11</option>
+<option label="12" value="12">12</option>
+<option label="13" value="13">13</option>
+<option label="14" value="14">14</option>
+<option label="15" value="15">15</option>
+<option label="16" value="16">16</option>
+<option label="17" value="17">17</option>
+<option label="18" value="18">18</option>
+<option label="19" value="19">19</option>
+<option label="20" value="20">20</option>
+<option label="21" value="21">21</option>
+<option label="22" value="22">22</option>
+<option label="23" value="23">23</option>
+<option label="24" value="24">24</option>
+<option label="25" value="25">25</option>
+<option label="26" value="26">26</option>
+<option label="27" value="27">27</option>
+<option label="28" value="28">28</option>
+<option label="29" value="29">29</option>
+<option label="30" value="30">30</option>
+<option label="31" value="31">31</option>
+</select>
+<select name="dateFromYear" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="2010" value="2010">2010</option>
+<option label="2011" value="2011">2011</option>
+<option label="2012" value="2012">2012</option>
+<option label="2013" value="2013">2013</option>
+<option label="2014" value="2014">2014</option>
+</select></td>
+</tr>
+<tr valign="top">
+	<td class="label">Hasta</td>
+	<td class="value">
+		<select name="dateToMonth" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="January" value="01">January</option>
+<option label="February" value="02">February</option>
+<option label="March" value="03">March</option>
+<option label="April" value="04">April</option>
+<option label="May" value="05">May</option>
+<option label="June" value="06">June</option>
+<option label="July" value="07">July</option>
+<option label="August" value="08">August</option>
+<option label="September" value="09">September</option>
+<option label="October" value="10">October</option>
+<option label="November" value="11">November</option>
+<option label="December" value="12">December</option>
+</select>
+<select name="dateToDay" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="01" value="1">01</option>
+<option label="02" value="2">02</option>
+<option label="03" value="3">03</option>
+<option label="04" value="4">04</option>
+<option label="05" value="5">05</option>
+<option label="06" value="6">06</option>
+<option label="07" value="7">07</option>
+<option label="08" value="8">08</option>
+<option label="09" value="9">09</option>
+<option label="10" value="10">10</option>
+<option label="11" value="11">11</option>
+<option label="12" value="12">12</option>
+<option label="13" value="13">13</option>
+<option label="14" value="14">14</option>
+<option label="15" value="15">15</option>
+<option label="16" value="16">16</option>
+<option label="17" value="17">17</option>
+<option label="18" value="18">18</option>
+<option label="19" value="19">19</option>
+<option label="20" value="20">20</option>
+<option label="21" value="21">21</option>
+<option label="22" value="22">22</option>
+<option label="23" value="23">23</option>
+<option label="24" value="24">24</option>
+<option label="25" value="25">25</option>
+<option label="26" value="26">26</option>
+<option label="27" value="27">27</option>
+<option label="28" value="28">28</option>
+<option label="29" value="29">29</option>
+<option label="30" value="30">30</option>
+<option label="31" value="31">31</option>
+</select>
+<select name="dateToYear" class="selectMenu">
+<option label="" value="" selected="selected"></option>
+<option label="2010" value="2010">2010</option>
+<option label="2011" value="2011">2011</option>
+<option label="2012" value="2012">2012</option>
+<option label="2013" value="2013">2013</option>
+<option label="2014" value="2014">2014</option>
+</select>
+		<input type="hidden" name="dateToHour" value="23" />
+		<input type="hidden" name="dateToMinute" value="59" />
+		<input type="hidden" name="dateToSecond" value="59" />
+	</td>
+</tr>
+<tr valign="top">
+	<td class="label"><h4>Términos de indexación</h4></td>
+	<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="discipline">Disciplina(s)</label></td>
+	<td class="value"><input type="text" name="discipline" id="discipline" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="subject">Palabra(s) clave(s)</label></td>
+	<td class="value"><input type="text" name="subject" id="subject" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="type">Tipo (método/enfoque)</label></td>
+	<td class="value"><input type="text" name="type" id="type" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+<tr valign="top">
+	<td class="label"><label for="coverage">Cobertura</label></td>
+	<td class="value"><input type="text" name="coverage" id="coverage" size="40" maxlength="255" value="" class="textField" /></td>
+</tr>
+</table>
+
+<p><input type="button" onclick="ensureKeyword();" value="Buscar" class="button defaultButton" /></p>
+
+<script type="text/javascript">
+<!--
+	document.search.query.focus();
+// -->
+</script>
+</form>
+</div>
+Consejos de búsqueda: <ul>
+<li>Los términos de búsqueda no distinguen minúsculas/MAYÚSCULAS</li>
+<li>Se ignoran las palabras comunes</li>
+<li>Por defecto sólo se recuperan los artículos que contienen <em>todos</em> los términos de la búsqueda (se usa por defecto el operador <strong>AND</strong>)</li>
+<li>Combine diferentes palabras con <strong>OR</strong> para encontrar artículos que contengan cualquiera de los términos; p.e., <em>formación OR investigación</em></li>
+<li>Use paréntesis para crear consultas más complejas; p.e., <em>archivo ((revista OR congreso) NOT tesis)</em></li>
+<li>Para buscar una frase exacta, póngala entre paréntesis; p.e., <em>"publicaciones de acceso abierto"</em></li>
+<li>Si quiere excluir una palabra póngale como prefijo <strong>-</strong> o <strong>NOT</strong>; p.e. <em>online -política</em> or <em>online NOT política</em></li>
+<li>Use <strong>*</strong> en un término como comodín para encontrar cualquier secuencia de caracteres; p.e., <em>moralidad soci* </em> encontraría documentos que contengan "sociológico" o "sociología"</li>
+</ul>
+
+
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div><!-- container -->
+</body>
+</html>

@@ -1,0 +1,229 @@
+a:link { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+a:visited { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+a:hover { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFCC00;
+	text-decoration: none;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+body {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-left:0;
+	margin-top:0;
+	background-color: #FFFFFF;
+}
+
+td {
+	text-align:left;
+}
+
+
+img {
+	border: none;
+}
+
+input {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	margin-left:0;
+	margin-top:0;
+	background-color: #FFFFFF;
+	border: 1px solid #505050;
+}
+
+.titulo {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.normalBlanco {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.volumen-article {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-variant:small-caps;
+	color: #CCCCCC;
+}
+
+.section-article {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #FFCC00;
+	font-weight: bold;
+}
+.section-article A:LINK{
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	font-variant:small-caps;
+	font-size: 12px;
+	color: #CCCCCC;
+	font-weight: bold;
+}
+.section-article A:HOVER{
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	font-variant:small-caps;
+	font-size: 12px;
+	color: #FFCC00;
+	font-weight: bold;
+}
+
+.section-article A:VISITED{
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	font-variant:small-caps;
+	font-size: 12px;
+	color: #CCCCCC;
+	font-weight: bold;
+}
+
+.inicio_secion A:link{
+	color:#ffffff;
+	float: left;
+	text-align: center;
+  	font-size: 11px;
+  	text-decoration: none;
+  	font-weight: bold;
+	border: 1px solid #6699cc;
+  	width: 100px;
+	background-color:#FFFFFF;
+  	line-height: 18px;
+  	margin: 2px;
+}
+
+.inicio_secion A:hover{
+	color:#FFFFFF;
+	float: left;
+	text-align: center;
+  	font-size: 11px;
+  	text-decoration: none;
+  	font-weight: bold;
+	border: 1px solid #6699cc;
+  	width: 100px;
+	background-color:#FFFFFF;
+  	line-height: 18px;
+  	margin: 2px;
+}
+
+
+.inicio_secion a:visited{
+	color:#ffffff;
+	float: left;
+	text-align: center;
+  	font-size: 11px;
+  	text-decoration: none;
+  	font-weight: bold;
+	border: 1px solid #6699cc;
+  	width: 100px;
+	background-color:#FFFFFF;
+  	line-height: 18px;
+  	margin: 2px;
+}
+
+.forma {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	margin-left:0;
+	margin-top:0;
+	background-color: #000000;
+	border: 1px solid #505050;
+}
+
+.formaBuscar {
+	color : #000000; 
+	font-size: 8pt; 
+	background-color : #000000; 
+	border: 1px solid #505050;
+}
+
+.numerolist {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #000000;
+}
+.numerolist A:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+.numerolist A:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+.numerolist A:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color : #FFCC00; 
+	text-decoration: none;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+.titulo-articulo{
+	color: #CCCCCC;
+	font-weight:bold;
+	font-variant: normal;
+}
+.symbol {font-family: Symbol}
+
+.nounderline A:link{
+	text-decoration: none;
+}
+.nounderline A:hover{
+	text-decoration: none;
+}
+.nounderline A:visited{
+	text-decoration: none;
+}
+#header h1 {
+        line-height: 2.5;
+        font-family: "Times New Roman", Times, Georgia, serif;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-size: 2em;
+        background-color: #336699;
+        color:  #fff;
+}
