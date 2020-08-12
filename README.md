@@ -4,6 +4,8 @@ _Revista Colombiana de Física_
 
 Deployed in http://fisica.udea.edu.co/rcf as well as in the official site:
 
+https://restrepo.github.io/revcolfis
+
 http://revcolfis.org
 
 To fix broken links please fork, fix, and make a pull request.
