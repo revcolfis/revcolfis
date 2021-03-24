@@ -1,3 +1,8 @@
+---
+permalink: /index.html
+---
+
+
 Static version of
 
 _Revista Colombiana de Física_
