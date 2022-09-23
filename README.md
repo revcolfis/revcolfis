@@ -9,7 +9,7 @@ _Revista Colombiana de Física_
 
 Deployed in http://fisica.udea.edu.co/rcf as well as in the official site:
 
-https://revcolfis.github.io/revcolfis
+https://revcolfis.github.io
 
 
 http://revcolfis.org
